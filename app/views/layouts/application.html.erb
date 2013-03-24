@@ -7,8 +7,44 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	
+	<div class="container">
+		<div class="navbar">
+  			<div class="navbar-inner">
+    			<a class="brand" href="#">Title</a>
+				<ul class="nav">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">News</a>
+					</li>
+					<li>
+						<a href="#">Tier List</a>
+					</li>
+					<li>
+						<a href="#">Red Tracker</a>
+					</li>
+					<li>
+						<a href="#">Videos</a>
+					</li>
+					<li>
+						<a href="#">Streams</a>
+					</li>
+					<li>
+						<a href="#">Forums</a>
+					</li>
+					<li>
+						<a href="#">Store</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">		
+		<%= yield %>
+	</div>
 
 </body>
 </html>
