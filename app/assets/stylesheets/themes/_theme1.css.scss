@@ -1,4 +1,12 @@
 
 
 //*************** Import Overrides *****************
-@import "overrides/_variables";
+@import "../overrides/variables";
+
+
+
+h3 {
+  color: $reddish;
+}
+
+

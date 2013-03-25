@@ -13,18 +13,52 @@
  */
 
 //*************** Import Theme - theme overrides defaults below  ********************
-@import "themes/_theme1";
+
+ 
 
 //*************** Import Defaults *****************
 @import "bourbon";
 @import "bootstrap";
 @import "bootstrap-responsive";
 
+.row { border: 1px solid black; }
+.span12, .span8, .span2 {
+  border: 1px solid yellow;
+}
 
 
 
+//*** Comment styles
 
-
+.comment_container {
+  .comment_header {
+    .avatar_date_posted {}
+    .comment_number {}
+  }//end comment_header
+  
+  .comment_avatar {
+    border: 1px solid red;
+    float: left;
+    
+    .avatar_user_name {}
+    
+  }//end comment_avatar
+  
+  .comment_body {
+    border: 1px solid blue;
+    background: #e5e5e5;
+    min-height: 200px;
+    
+    
+    .comment {
+      
+      
+    }
+    
+  }
+  
+  
+} //end comment_container
 
 
 
