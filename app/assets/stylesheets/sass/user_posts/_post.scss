@@ -1,12 +1,15 @@
 
 
+
+
 div.post_container {
-  @include span12;
+  @include span12;  
+  
   
   background: #e5e5e5;
   
   div.post_header {
-    background: black;
+    background: black;    
     padding: 10px;
     span {
       color: #fff;
@@ -14,6 +17,22 @@ div.post_container {
     span:nth-child(2) {
       float: right;
     }
+  }//end post header
+  div.comment_avatar {
+    @include span2; 
+    background: yellow;   
+    div.comment_user_name {
+      button.btn.dropdown-toggle {
+        background: none;
+        border: none;
+      }
+    }
+    
+  }// end comment avatar
+  div.comment_body {
+    @include offset2;
+    
+    background: blue;
   }
   
 }

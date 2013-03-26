@@ -1,0 +1,26 @@
+
+.span {  
+  float: left;
+  min-height: 1px;
+  margin-left: 20px; 
+  
+}
+
+@mixin fluid-span12 {
+  @extend .row-fluid;
+  background: blue;
+  width: 100%;
+  *width: 99.94680851063829%;
+}
+
+@mixin fluid-span11 {
+  width: 91.48936170212765%;
+  *width: 91.43617021276594%;
+}
+
+@mixin fluid-span6 {
+  @extend .row-fluid;
+  background: red;
+  width: 48.93617021276595%;
+  *width: 48.88297872340425%;
+}

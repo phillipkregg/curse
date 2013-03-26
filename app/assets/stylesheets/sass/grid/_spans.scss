@@ -2,9 +2,8 @@
 .span {  
   float: left;
   min-height: 1px;
-  margin-left: 20px;
-  
-  border: 1px solid blue;
+  margin-left: 20px; 
+  border: 1px solid red;
 }
 
 @mixin span12 {

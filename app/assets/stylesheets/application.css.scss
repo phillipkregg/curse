@@ -17,18 +17,18 @@
 //*************** Import Defaults *****************
 @import "bourbon";
 @import "bootstrap";
-@import "bootstrap-responsive";
+//@import "bootstrap-responsive";
 
 
 //*************** Sass based framework below! *********
 
 // include grid
-@import "sass/grid/row";
-@import "sass/grid/spans";
-@import "sass/grid/offsets";
+@import "sass/grid/grid";
 
 //include post styles
 @import "sass/user_posts/post";
+
+
 
 
 
