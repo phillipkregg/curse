@@ -1,0 +1,19 @@
+
+
+div.post_container {
+  @include span12;
+  
+  background: #e5e5e5;
+  
+  div.post_header {
+    background: black;
+    padding: 10px;
+    span {
+      color: #fff;
+    }
+    span:nth-child(2) {
+      float: right;
+    }
+  }
+  
+}

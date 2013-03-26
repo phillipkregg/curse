@@ -1,0 +1,63 @@
+
+.span {  
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+  
+  border: 1px solid blue;
+}
+
+@mixin span12 {
+  @extend .span;
+  width: 940px;  
+}
+@mixin span11 {
+  @extend .span;
+  width: 860px;  
+}
+@mixin span10 {
+  @extend .span;
+  width: 780px;
+}
+@mixin span9 {
+  @extend .span;
+  width: 700px;
+}
+@mixin span8 {
+  @extend .span;
+  width: 620px;
+}
+@mixin span7 {
+  @extend .span;
+  width: 540px;
+}
+@mixin span6 {
+  @extend .span;
+  width: 460px;
+}
+@mixin span5 {
+  @extend .span;
+  width: 380px;
+}
+@mixin span4 {
+  @extend .span;
+  width: 300px;
+}
+@mixin span3 {
+  @extend .span;
+  width: 220px;
+}
+@mixin span2 {
+  @extend .span;
+  width: 140px;
+}
+@mixin span1 {
+  @extend .span;
+  width: 60px;
+}
+
+
+
+
+
+

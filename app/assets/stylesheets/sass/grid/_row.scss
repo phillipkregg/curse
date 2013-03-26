@@ -1,0 +1,17 @@
+
+@mixin row {
+  border: 5px solid red;
+  margin-left: -20px;
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+
+}

@@ -12,8 +12,6 @@
  *= require_self
  */
 
-//*************** Import Theme - theme overrides defaults below  ********************
-
  
 
 //*************** Import Defaults *****************
@@ -21,44 +19,21 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
 
-.row { border: 1px solid black; }
-.span12, .span8, .span2 {
-  border: 1px solid yellow;
-}
+
+//*************** Sass based framework below! *********
+
+// include grid
+@import "sass/grid/row";
+@import "sass/grid/spans";
+@import "sass/grid/offsets";
+
+//include post styles
+@import "sass/user_posts/post";
 
 
 
-//*** Comment styles
 
-.comment_container {
-  .comment_header {
-    .avatar_date_posted {}
-    .comment_number {}
-  }//end comment_header
-  
-  .comment_avatar {
-    border: 1px solid red;
-    float: left;
-    
-    .avatar_user_name {}
-    
-  }//end comment_avatar
-  
-  .comment_body {
-    border: 1px solid blue;
-    background: #e5e5e5;
-    min-height: 200px;
-    
-    
-    .comment {
-      
-      
-    }
-    
-  }
-  
-  
-} //end comment_container
+
 
 
 
