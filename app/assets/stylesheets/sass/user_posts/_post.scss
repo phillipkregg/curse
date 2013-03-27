@@ -20,7 +20,7 @@ div.post_container {
   }//end post header
   div.comment_avatar {
     @include span2; 
-    background: yellow;   
+    
     div.comment_user_name {
       button.btn.dropdown-toggle {
         background: none;
@@ -32,7 +32,7 @@ div.post_container {
   div.comment_body {
     @include offset2;
     
-    background: blue;
+    
   }
   
 }
